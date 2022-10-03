@@ -1,0 +1,32 @@
+{
+  "name": "testing_with_cucumber",
+  "version": "1.0.0",
+  "description": "A simple demo project for learning Cucumber with TypeScript and Puppeteer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PritiVishwakarma97/testing_with_cucumber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PritiVishwakarma97/testing_with_cucumber/issues"
+  },
+  "homepage": "https://github.com/PritiVishwakarma97/testing_with_cucumber#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.6.0",
+    "@types/node": "^18.8.0",
+    "puppeteer": "^18.0.5",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.24.0",
+    "ts-node": "^10.9.1"
+  }
+}

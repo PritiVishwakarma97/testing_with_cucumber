@@ -16,7 +16,9 @@ Cucumer reads executable specifications written in plain text and validates that
 # Features
 
 # Code examples
-- Writing test cases in .feature files using Gherkin language
+- Run below command to start the execution
+  `npm test`
+  
 
 # Screenshots
 Simple feature file

@@ -15,8 +15,8 @@ Cucumer reads executable specifications written in plain text and validates that
 
 # Features
 
-# Code examples
-- Run below command to start the execution
+# Execution
+- Run below command to start the execution of all the scenarios
 
   `npm test`
   

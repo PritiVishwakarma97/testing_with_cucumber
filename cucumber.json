@@ -1,0 +1,8 @@
+{
+    "default": {
+        "paths": ["test/features/*.feature"],
+        "require": ["test/step_definitions/*ts", "test/support/*.ts"],
+        "requireModule":["ts-node/register"],
+        "format": ["html:test/test_results/test-report.html"]
+    }
+}

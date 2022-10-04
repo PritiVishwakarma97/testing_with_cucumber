@@ -11,7 +11,7 @@ export class Calculator{
     }
 
     multiply(num1: number, num2: number){
-        this.result = num1 + num2;
+        this.result = num1 * num2;
     }
 
     getResult(): number{

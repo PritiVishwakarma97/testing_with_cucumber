@@ -13,13 +13,27 @@ Cucumer reads executable specifications written in plain text and validates that
 * Puppeteer
 * Cucumber
 
-# Features
-
 # Execution
 - Run below command to start the execution of all the scenarios
 
   `npm test`
   
+  or
+    
+   `npx cucumber-js`
+    
+  
+- To run a single feature
+  
+  `npm test path/to/feature/file`
+  
+- To run scenarios of features filtered by tags
+
+  `npm test -- --tags "@UI_Interaction"`  
+ or
+              
+  `npx cucumber-js --tags "@UI_Interaction"`
+              
 
 # Screenshots
 Simple feature file
@@ -38,11 +52,14 @@ HTML Report
 
 # Setup
 
-# Motivation
-
+1. Download and install node.js on your system 
+2. Take clone of the repo or download it
+3. From inside the working directory run, `npm install` on terminal
+4. Install Cucumber extension in vs code
 
 # References
 
-
+1. https://cucumber.io/
+2. https://github.com/cucumber/cucumber-js/tree/main/docs
 
 

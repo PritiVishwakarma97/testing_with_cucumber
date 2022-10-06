@@ -7,7 +7,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Cucumber Test",
+            "name": "Cucumber Test on windows",
             "skipFiles": [
                 "<node_internals>/**"
             ],
@@ -22,15 +22,22 @@
             "run-script",
             "test"
             ],
-            // "program": "${workspaceFolder}/node_modules/.bin/cucumber-js",
-            
-            // "args": [
-            //     "test/**/*.feature",
-            //     "-r",
-            //     "test/step_definitions/*.ts",
-            //     "--tags",
-            //     "@UI_Interaction"
-            // ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Cucumber Test on mac",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/node_modules/.bin/cucumber-js",
+            "args": [
+                "test/**/*.feature",
+                "-r",
+                "test/step_definitions/*.ts",
+                "--tags",
+                "@UI_Interaction" 
+            ] 
         }
     ]
 }

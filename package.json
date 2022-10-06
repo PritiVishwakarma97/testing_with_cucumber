@@ -4,7 +4,7 @@
   "description": "A simple demo project for learning Cucumber with TypeScript and Puppeteer.",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --tags \"@UI_Interaction\""
+    "test": "cucumber-js"
   },
   "repository": {
     "type": "git",

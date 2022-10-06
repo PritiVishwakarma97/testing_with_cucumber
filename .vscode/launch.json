@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Cucumber Test",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "runtimeExecutable": "npm",
+            "windows": {
+            "runtimeExecutable": "npm.cmd"
+            },
+            "env": {
+            "NODE_PATH": "test/"
+            },
+            "runtimeArgs": [
+            "run-script",
+            "test"
+            ],
+            // "program": "${workspaceFolder}/node_modules/.bin/cucumber-js",
+            
+            // "args": [
+            //     "test/**/*.feature",
+            //     "-r",
+            //     "test/step_definitions/*.ts",
+            //     "--tags",
+            //     "@UI_Interaction"
+            // ]
+        }
+    ]
+}
